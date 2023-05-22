@@ -12,7 +12,7 @@ export class TracksPageComponent {
 
   ngOnInit() {
     const { data } = (dataRaw as any).default;
+    console.log(data);
     this.mockTrackList = data;
-    
   }
 }

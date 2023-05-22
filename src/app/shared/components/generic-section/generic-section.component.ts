@@ -10,4 +10,5 @@ export class GenericSectionComponent {
   @Input() title: string = ''; //title comes from the tracks component
   @Input() mode: 'small' | 'big' = 'big'; //just those two vallues are accepted
   @Input() dataTracks: Array<TrackModel> = [];
+  
 }
